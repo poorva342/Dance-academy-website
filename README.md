@@ -1,14 +1,20 @@
 # Dance-academy-website
 Dance Website Project
+
 This project is a dance website that showcases various dance forms, provides information about dance classes, and includes a user login system. It is built using Node.js, Express, and incorporates Pug templates for rendering dynamic web pages.
 
 Project Structure
-app.js: Main application file defining routes and server setup.
-static/: Directory containing static assets such as CSS, images, etc.
-views/: Directory holding Pug templates for HTML rendering.
-dance.avif, miguel-angel-hernandez-Nwc-Z3_aEvw-unsplash.jpg: Dance-related images used in the website.
+app.js : Main application file defining routes and server setup.
+
+static/ : Directory containing static assets such as CSS, images, etc.
+
+views/ : Directory holding Pug templates for HTML rendering.
+
+dance.avif, miguel-angel-hernandez-Nwc-Z3_aEvw-unsplash.jpg : Dance-related images used in the website.
 package.json, package-lock.json: Node.js project configuration files.
+
 Features
+
 1. Home Page
 The home page introduces visitors to the website and provides an overview of various dance forms and classes offered.
 2. Login System
