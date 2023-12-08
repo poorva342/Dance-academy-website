@@ -1,7 +1,7 @@
 # Dance-academy-website
 Dance Website Project
 
-This project is a dance website that showcases various dance forms, provides information about dance classes, and includes a "Contact Us" page to gather user information. It is built using Node.js, Express, and incorporates Pug templates for rendering dynamic web pages.
+This project is a dance website that showcases various dance forms, provides information about dance classes, and includes a "Contact Us" page to gather user information. It is built using Node.js, Express, and incorporates Pug templates for rendering dynamic web pages. Data storage and management are handled using MongoDB.
 
 Project Structure
 
@@ -12,6 +12,7 @@ static/ : Directory containing static assets such as CSS, images, etc.
 views/ : Directory holding Pug templates for HTML rendering.
 
 dance.avif, miguel-angel-hernandez-Nwc-Z3_aEvw-unsplash.jpg:  Dance-related images used in the website.
+
 package.json, package-lock.json: Node.js project configuration files. 
 
 Features 
@@ -19,8 +20,10 @@ Features
 The home page introduces visitors to the website and provides an overview of various dance forms and classes offered.
 2. Contact Us Page
 The "Contact Us" page allows users to submit inquiries, questions, or requests by filling out a form.
-User information submitted through this page is stored securely and can be accessed for follow-up or communication purposes.
+User information submitted through this page is securely stored in a MongoDB database for further reference or follow-up communication.
+
 Getting Started
+
 To run this project locally, follow these steps:
 
 Clone the Repository:
