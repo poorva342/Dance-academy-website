@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+             div#logo
+                img(src="/static/img/balletdancer.png") 
+                | HDA
+             li #[a(href="/") Home ]
+             li #[a(href="/") Conatct us ]
+             li #[a(href="/") Class info ]
+             li #[a(href="/") Services]
+             li #[a(href="/") About]
+
+    section#introSection 
+        div Welcome to Poorva's Dance Academy 
+        div.small Eat Dance Sleep Repeat
+    section#missionsection 
+        h2 our mission is
+        div.card 
+           h4 Dance Perfection
+           div.card-box  
+              div.card-img
+                 img(src="/static/img/bharat.png") 
+
+              div.card-content  
+                  p this is best dance academy        
+
+        div.card 
+           h4 Dance the way you like
+           div.card-box  
+              div.card-img
+                 img(src="/static/img/hiphop.png") 
+
+              div.card-content  
+                  p this is best dance academy 
+         
+        div.card 
+           h4 Expert Teaching    
+           div.card-box  
+              div.card-img
+                 img(src="/static/img/balletdancer.png") 
+
+              div.card-content  
+                  p this is best dance academy 
+
+    section#sponsorSection 
+        h3 Our sponsors 
+        div#sponsors
+            img(src="/static/img/logo1=.png" ,alt="Sponsor Image",class="spImg")
+            img(src="/static/img/logo2=.png" ,alt="Sponsor Image",class="spImg")
+            img(src="/static/img/logo3=.png" ,alt="Sponsor Image",class="spImg")
+                
+
+    footer#footer   
+        | our footer is here
+    script
+      include ../static/index.js

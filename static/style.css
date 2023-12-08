@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Borel&family=Cabin:wght@400;700&family=Handjet&family=Lato&family=Libre+Baskerville&family=Mukta:wght@300;400&family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Playball&family=Playfair+Display:ital@1&family=Playpen+Sans&family=Roboto+Slab:wght@500;600&family=Roboto:wght@500&family=Rubik:wght@600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   /* for removing unnecessary gaps  */
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0 14px ;
+   
+}
+#logo img{
+    height:47px;
+}
+#navbar{
+    padding: 18px 14px;
+    background-color:  rgb(36 183 149);
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+    color: white;
+    font-size: 22px;
+    text-decoration:none ;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    color: rgb(5, 68, 47);
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    padding-bottom: 197px;
+    font-family: 'Playpen Sans', cursive;
+    background: center / cover no-repeat url("/static/dancenew.jpg");
+height: 425px;
+background-color:red ;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorSection{
+    background-color:#b3ffea ;
+}
+#sponsorSection h3 {
+    height: 50px;
+    font-size:29px;
+    text-align:center;
+    padding-top: 15px;
+    font-family: 'Playpen Sans', cursive;
+}
+#sponsors{
+    height: 165px;
+    max-width: 1000px;
+    padding-left: 246px;
+    margin: auto;
+   
+
+}
+.spImg{
+    height: 80%;
+    margin: 12px;
+    padding: 0px 15px;
+}
+#missionsection {
+    height: 319px;
+    width: 67%;
+    display: block;
+    margin: auto;
+    text-align:center;
+    padding-top: 23px;
+    font-family: 'Playpen Sans', cursive;   
+}
+#missionsection h2 {
+font-size: 29px;
+
+}
+.card {
+    border: 2px solid black;
+    border-radius:8px;
+    width: 29%;
+    height: 80%;
+    margin: 5px 16px;
+    display: inline-block;
+}
+.card h4{
+    text-align: center;
+padding-top: 10px;
+}
+.card-img{
+    height: 189px;
+    padding: 0px 0px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-content{
+padding: 0 10px;
+
+}
+.card-content p{
+    font-size: 19px;
+}
+#footer  {
+    height: 100px;
+    background-color:black ;
+}
