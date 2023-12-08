@@ -4,6 +4,7 @@ Dance Website Project
 This project is a dance website that showcases various dance forms, provides information about dance classes, and includes a user login system. It is built using Node.js, Express, and incorporates Pug templates for rendering dynamic web pages.
 
 Project Structure
+
 app.js : Main application file defining routes and server setup.
 
 static/ : Directory containing static assets such as CSS, images, etc.
